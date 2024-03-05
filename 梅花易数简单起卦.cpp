@@ -23,135 +23,135 @@ int main()
 		int dongyao;
 		dongyao = shanggua + xiagua;
 		
-		int 上卦象;
-		int 下卦象;
-		int 动爻;
+		int _shanggua;
+		int _xiagua;
+		int _dongyao;
 
-		上卦象 = shanggua % 8;
-		下卦象 = xiagua % 8;
-		动爻 = dongyao % 6;
+		_shanggua = shanggua % 8;
+		_xiagua = xiagua % 8;
+		_dongyao = dongyao % 6;
 
 		printf("正在运算。。。\n");
 		
-		if (上卦象==1)
+		if (_shanggua==1)
 		{
 			a = 1;
 			b = 1;
 			c = 1;
 
 		}
-		if (上卦象 == 2)
+		if (_shanggua == 2)
 		{
 			a = 0;
 			b = 1;
 			c = 1;
 		}
-		if (上卦象 == 3)
+		if (_shanggua == 3)
 		{
 			a = 1;
 			b = 0;
 			c = 1;
 		}
-		if (上卦象 == 4)
+		if (_shanggua == 4)
 		{
 			a = 0;
 			b = 0;
 			c = 1;
 		}
-		if (上卦象 == 5)
+		if (_shanggua == 5)
 		{
 			a = 1;
 			b = 1;
 			c = 0;
 		}
-		if (上卦象 == 6)
+		if (_shanggua == 6)
 		{
 			a = 0;
 			b = 1;
 			c = 0;
 		}
-		if (上卦象 == 7)
+		if (_shanggua == 7)
 		{
 			a = 1;
 			b = 0;
 			c = 0;
 		}
-		if (上卦象 == 0)
+		if (_shanggua == 0)
 		{
 			a = 0;
 			b = 0;
 			c = 0;
 		}
-		if (下卦象 == 1)
+		if (_xiagua == 1)
 		{
 			d = 1;
 			e = 1;
 			f = 1;
 
 		}
-		if (下卦象 == 2)
+		if (_xiagua == 2)
 		{
 			d = 0;
 			e = 1;
 			f = 1;
 		}
-		if (下卦象 == 3)
+		if (_xiagua == 3)
 		{
 			d = 1;
 			e = 0;
 			f = 1;
 		}
-		if (下卦象 == 4)
+		if (_xiagua == 4)
 		{
 			d = 0;
 			e = 0;
 			f = 1;
 		}
-		if (下卦象 == 5)
+		if (_xiagua == 5)
 		{
 			d = 1;
 			e = 1;
 			f = 0;
 		}
-		if (下卦象 == 6)
+		if (_xiagua == 6)
 		{
 			d = 0;
 			e = 1;
 			f = 0;
 		}
-		if (下卦象 == 7)
+		if (_xiagua == 7)
 		{
 			d = 1;
 			e = 0;
 			f = 0;
 		}
-		if (下卦象 == 0)
+		if (_xiagua == 0)
 		{
 			d = 0;
 			e = 0;
 			f = 0;
 		}
-		if (动爻==1)
+		if (_dongyao==1)
 		{
 			f = abs(f - 1);
 		}
-		if (动爻 == 2)
+		if (_dongyao == 2)
 		{
 			e = abs(e - 1);
 		}
-		if (动爻 == 3)
+		if (_dongyao == 3)
 		{
 			d = abs(d - 1);
 		}
-		if (动爻 == 4)
+		if (_dongyao == 4)
 		{
 			c = abs(c - 1);
 		}
-		if (动爻 == 5)
+		if (_dongyao == 5)
 		{
 			b = abs(b - 1);
 		}
-		if (动爻 == 0)
+		if (_dongyao == 0)
 		{
 			a = abs(a - 1);
 		}
